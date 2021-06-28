@@ -1,0 +1,79 @@
+.Card {
+    padding: 35px;
+}
+
+.Card:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+
+.Card:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.Orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.Cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.DarkCyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.Car {
+    margin-bottom: 16px;
+}
+
+.Title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.Body {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 64px;
+    font-weight: 400;
+}
+
+.Button {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    padding: 0.8rem 2rem;
+}
+
+.Button:hover {
+    color: white;
+    background-color: transparent;
+    border: white solid 2px;
+}
+
+.btnOrange {
+    color: hsl(31, 77%, 52%);
+}
+
+.btnCyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.btnDarkCyan {
+    color: hsl(179, 100%, 13%);
+}
+
+@media(max-width: 375px) {
+    .Card:first-child {
+        border-radius: 5px 5px 0 0;
+      }
+    
+    .Card:last-child {
+        border-radius: 0  0 5px 5px;
+    }
+  
+  }

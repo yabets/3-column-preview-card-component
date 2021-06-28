@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  max-width: 1440px;
+  margin:150px 225px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width: 375px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 16px;
+  }
+
+}
