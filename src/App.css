@@ -1,17 +1,29 @@
 .App {
   display: flex;
   max-width: 1440px;
-  margin:150px 225px;
+  margin: 125px 225px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
-@media(max-width: 375px) {
+@media (max-width: 375px) {
   .App {
     display: flex;
     flex-direction: column;
     margin: 48px 16px;
   }
-
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: static;
+  }
 }
